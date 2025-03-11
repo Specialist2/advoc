@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  box-shadow: 2px 2px 2px 2px rgb(164, 151, 151);
+  padding: 20px;
+}
+
+.icon {
+  width: 50%;
+
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+.icon img {
+  width: 10%;
+  border-radius: 50%;
+}
+.about {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  align-items: center;
+}
+.about a {
+  text-decoration: none;
+  color: #19193d;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  box-shadow: 2px 2px 2px 2px rgb(164, 151, 151);
+}
+
+.hero img {
+  width: 100%;
+  height: 350px;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+.hero p {
+  color: white;
+  line-height: 1.5rem;
+  position: relative;
+  right: 150px;
+  text-align: center;
+}
+.about-rono {
+  margin-top: 80px;
+}
+.cta-1 {
+  margin-top: 50px;
+  position: relative;
+  right: 50px;
+  width: 160px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: rgb(224, 139, 27);
+}
+.cta-1:hover {
+  color: white;
+  transform: scale(1.5);
+  background-color: blue;
+}
