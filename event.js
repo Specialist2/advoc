@@ -1,4 +1,4 @@
-const openMenuButton = document.querySelector("#open-button");
+/* const openMenuButton = document.querySelector("#open-button");
 openMenuButton.style.backgroundColor = "yellow";
 
 openMenuButton.addEventListener("click", () => {
@@ -8,10 +8,21 @@ openMenuButton.addEventListener("click", () => {
 });
 
 const closeMenuButton = document.querySelector("#close-button");
-closeMenuButton.style.backgroundColor = "red";
+closeMenuButton.style.backgroundColor = "red"; */
 
-closeMenuButton.addEventListener("click", () => {
+let openMenu = document.querySelector(".menu-icon");
+openMenu.addEventListener("click", () => {
+  document.querySelector(".about").style.display = "flex";
+});
+let closeIcon = document.querySelector(".close-icon");
+/* let menuIcon = document.querySelector(".menu-icon");
+menuIcon.style.display="none" */
+
+closeIcon.addEventListener("click", () => {
+  document.querySelector(".about").style.display = "none";
+});
+/* .addEventListener("click", () => {
   console.log("Closing Menu!!");
   document.querySelector(".about").style.display = "none";
   document.querySelector(".about").classList.remove("opened-nav");
-});
+}); */
